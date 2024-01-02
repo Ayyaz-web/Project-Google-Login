@@ -1,0 +1,187 @@
+body {
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.login {
+    margin: auto;
+    width: 33%;
+    padding-right: 20px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px outset black;
+    border-width: thin;
+    border-radius: 6px;
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.logo >img{
+    width: 80px;
+}
+
+
+h3{
+    
+    color: #202124;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+    word-break: break-word;
+}
+
+
+.center p{
+    
+        padding-bottom: 30px;
+        color: rgb(32,33,36);
+        font-size: 16px;
+}
+
+
+
+
+
+form {
+    width: 100%;
+}
+
+
+.inputBox button {
+        font-size: 14px;
+        color:#1A73E8;
+        display: inline-block;
+        background-color: transparent;
+        cursor: pointer;
+        display: flex;
+        border: 0;
+    
+}
+.ler {
+    display: flex;
+    flex-direction: column;
+    gap: none;
+    
+   
+}
+.ler a{
+    color:#1A73E8;
+
+}
+
+.inputBox input {
+   
+    margin-bottom: 5px;
+}
+
+input {
+    width: 105%;
+    padding: 16px;
+}
+input:active {
+    color:#1A73E8;
+    border: none;
+  }
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+
+
+
+.opt {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    justify-content: space-between;
+}
+
+#options {
+    padding: 8px;
+}
+
+
+
+
+.footer {
+    margin-left: 33%;
+    width: 33%;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+}
+/* .left-content{
+    background: none;
+    border: none;
+    outline: none;
+
+} */
+
+.footer select {
+    max-width: 150px;
+    margin-bottom: 20px; 
+}
+
+.right-links a {
+    color: #333;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    margin: 10px; 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .login {
+        width: 60%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+}
+
+ 
+@media screen and (min-width: 390px) {
+    .login{
+
+    }
+}
+
+
+
